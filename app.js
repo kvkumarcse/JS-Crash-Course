@@ -8,17 +8,20 @@ Test commit
 */
 
 // loggin in console
-// console.log("hello world");
+ console.log("hello world");
 // printing error in console
-// console.error("I am an error");
+console.error("I am an error");
 // printing warning in console
-// console.warn("I am a warning");
+console.warn("I am a warning");
 
 // variable keywords
 // var, let , const
 
 // issue with var keyword's global scope
 /* for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+for(var i=0;i<10;i++){
   console.log(i);
 }
 // i is accessible outside for loop as well
