@@ -12,7 +12,17 @@ Test commit
 // printing error in console
 console.error("I am an error");
 // printing warning in console
-console.warn("I am a warning");
+const greeting = "Hello World This Is My First Program";
+console.log(greeting);
+console.log(greeting.split(" ").length);
+var name1='venkatesh';
+console.log(name1.substring(0,5));
+console.log(name1.toLocaleUpperCase);
+console.log(name1.substring(0,5));
+
+
+
+
 
 // variable keywords
 // var, let , const
@@ -48,6 +58,7 @@ const studentRollNum = 11;
 const isPresent = true;
 const fees = null;
 const age = undefined;
+const 
 
 // use of typeof keyword
 console.log(typeof age); */
